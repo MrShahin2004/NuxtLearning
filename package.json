@@ -18,5 +18,8 @@
     "nuxt": "^4.6.3",
     "vue": "^3.5.43",
     "vue-router": "^5.3.1"
+  },
+  "devDependencies": {
+    "@rolldown/binding-win32-x64-msvc": "^1.2.16"
   }
 }
