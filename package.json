@@ -11,15 +11,20 @@
   },
   "dependencies": {
     "@nuxt/a11y": "^1.0.0-alpha.1",
-    "@nuxt/content": "^2.13.4",
+    "@nuxt/content": "^3.17.0",
     "@nuxt/eslint": "^1.17.0",
-    "better-sqlite3": "^13.0.3",
-    "eslint": "^10.11.0",
-    "nuxt": "^4.6.3",
-    "vue": "^3.5.43",
-    "vue-router": "^5.3.1"
+    "better-sqlite3": "^13.2.0",
+    "eslint": "^10.15.0",
+    "nuxt": "^4.7.0",
+    "vue": "^3.5.46",
+    "vue-router": "^5.5.1"
   },
   "devDependencies": {
-    "@rolldown/binding-win32-x64-msvc": "^1.2.16"
+    "@rolldown/binding-win32-x64-msvc": "^1.3.3"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true,
+    "unrs-resolver@1.12.2": true,
+    "better-sqlite3@13.2.0": true
   }
 }
